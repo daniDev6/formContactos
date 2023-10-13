@@ -1,0 +1,180 @@
+/*********************formulario*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+} 
+body{
+    background-image: url(../img/banner.png);
+
+    background-clip: padding-box;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px green;
+
+
+}
+main{
+    width: 40%;
+    padding: 10px;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, .25);
+    -webkit-backdrop-filter: blur(1px);
+    backdrop-filter: blur(5px);
+    border: 1.5px solid rgba(209, 213, 219, 0.3);
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius:15px ;
+}
+
+input,
+label,
+textarea,
+button {
+    width: 100%;
+    margin-bottom: 5px;
+    color: #04146c;
+    font-size: 1.2rem;
+    padding: 5px;
+}
+label {
+    font-size: 1.2rem;
+}
+/*---------botones-----------*/
+button {
+
+    color: white;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    background-color: #14D08E;
+    margin: 15px;
+}
+
+.botones{
+    display: flex;
+    justify-content: end;
+}
+.titulo-contactos {
+    font-size: 3rem;
+    color: #14D08E;
+    text-align:center ;
+}
+/*-------contenedor-------*/
+.contenedor{
+    display: flex;
+    justify-content:center;
+    width: 90%;
+
+}
+/*---------left------------*/
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+
+
+}
+
+.left a{
+    color: white;
+}
+.iconos{
+    width: 50%;
+
+    margin:50px 30px 50px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.iconos a{
+    display: flex;
+    background-color: #14D08E;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 2rem;
+}
+.iconos a:hover{
+    color: #04146c;
+}
+.direcciones a:hover
+{
+
+    color: #14D08E;
+
+}
+.direcciones{
+    display: flex;
+    flex-direction: column;
+}
+.direcciones a{
+    margin-top: 20px;
+    font-size: 1.5rem;
+
+}
+
+
+/*--------right-----------*/
+.right{
+    display: flex;
+    width: 50%;
+}
+
+.caja{
+    width: 90%;
+    margin: auto;
+}
+.caja input{
+    margin: 15px 0;
+}
+@media (max-width:1000px){
+    
+    body,main,.contenedor{
+        min-width: 700px;
+    }
+    main{
+        width: 90%;
+    }
+    a,
+    input,
+    textarea,
+    button
+    {
+        font-size: 1.5rem!important;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

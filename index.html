@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+
+    <link rel="stylesheet" href="./css/formulario.css">
+</head>
+<body>
+
+    <main>
+        <h1 class="titulo-contactos">Contacto</h1>
+        <section class="contenedor">
+            <div class="left">
+                <div class="direcciones">
+                    <a href="mailto:danielvillalbac97@gmail.com">danielvillalbac97@gmail.com</a>
+                    <a href="https://goo.gl/maps/9sFuddiNoFnzanUg9">Cordoba capital</a>
+                    <a href="tel:1151387649">1151387649</a>
+                    <a href="https://wa.link/auskou">whatsapp</a>
+                </div>
+                <div class="iconos">
+                    <a href="">F</a>
+                    <a href="">T</a>
+                    <a href="">I</a>
+                </div>
+            </div>
+            <div class="right">
+                <form action="../php/index.php" method="post" class="caja"> 
+                    <input type="text" name="nombre" required placeholder="Nombre/Empresa">
+                    <input type="number" name="telefono" required placeholder="Telefono">
+                    <input type="email" name="email" required placeholder="Email">
+                    <input type="text" name="asunto" id="asundo" placeholder="Asunto">
+                    <textarea id="msj" type="text" name="mensaje" placeholder="Mensaje que desea enviarme"></textarea>
+                    <div class="botones">
+                        <button type="reset" class="naranja">Resetear</button>
+                        <button type="submit" class="verde">Enviar</button>
+                    </div>
+            </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
